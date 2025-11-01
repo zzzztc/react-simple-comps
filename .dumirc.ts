@@ -2,6 +2,16 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  resolve: {
+    entryFile: './src/index.ts', // 添加这一行配置
+  },
+  alias: {
+    'react-simple-comps': './src/index',
+    '@': './src',
+  },
+  apiParser: {
+    unpkgHost: 'https://unpkg.zhimg.com',
+  },
   themeConfig: {
     name: 'react-simple-comps',
     nav: [
