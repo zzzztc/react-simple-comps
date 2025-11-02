@@ -1,13 +1,15 @@
 import { defineConfig } from 'dumi';
+import * as path from 'path'; // 添加这一行引入path模块
 
+// @ts-ignore
 export default defineConfig({
   outputPath: 'docs-dist',
   resolve: {
     entryFile: './src/index.ts', // 添加这一行配置
   },
   alias: {
-    'react-simple-comps': './src/index',
-    '@': './src',
+    'react-simple-comps': path.resolve(__dirname, 'src'),
+    '@': path.resolve(__dirname, 'src'),
   },
   apiParser: {
     unpkgHost: 'https://unpkg.zhimg.com',

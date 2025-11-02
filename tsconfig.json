@@ -23,8 +23,8 @@
     "lib": ["es2015", "DOM", "es2020"],
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "react-simple-comps": ["src"],
-      "react-simple-comps/*": ["src/*", "*"]
+      "react-simple-comps": ["./src"],
+      "react-simple-comps/*": ["./src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"],

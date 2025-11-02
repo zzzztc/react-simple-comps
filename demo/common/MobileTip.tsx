@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from 'react-simple-comps';
+import { styled } from 'src';
 
 const StyledTip = styled.div`
   font-size: 20px;
