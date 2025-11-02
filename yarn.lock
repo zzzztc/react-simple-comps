@@ -6913,6 +6913,11 @@ internal-slot@^1.1.0:
     hasown "^2.0.2"
     side-channel "^1.1.0"
 
+intersection-observer@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.12.2.tgz#4a45349cc0cd91916682b1f44c28d7ec737dc375"
+  integrity sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==
+
 intl-messageformat@10.7.18:
   version "10.7.18"
   resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-10.7.18.tgz#51a6f387afbca9b0f881b2ec081566db8c540b0d"
@@ -9073,6 +9078,11 @@ nanoid@^3.3.11, nanoid@^3.3.6, nanoid@^3.3.7:
   version "3.3.11"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
   integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
+
+nanoid@^5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.6.tgz#30363f664797e7d40429f6c16946d6bd7a3f26c9"
+  integrity sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==
 
 natural-compare-lite@^1.4.0:
   version "1.4.0"
@@ -11330,6 +11340,16 @@ signal-exit@^4.0.1:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
+
+signature_pad@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/signature_pad/-/signature_pad-5.1.1.tgz#0bf3c7341c91b119a17d8afdc7206ad9fc991aa6"
+  integrity sha512-BT5JJygS5BS0oV+tffPRorIud6q17bM7v/1LdQwd0o6mTqGoI25yY1NjSL99OqkekWltS4uon6p52Y8j1Zqu7g==
+
+simple-redux-store@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/simple-redux-store/-/simple-redux-store-2.0.0.tgz#60dd0b2e85308eae9e68963d551f1f3f7402a47c"
+  integrity sha512-vQzpwiv6HtPirlUrTBfD4N4mFdOXx91RGZBN0sMyxiUlZjmCYL2K9zmivACueWFE5XTU4CdPiUPprNnIagTv5g==
 
 simple-swizzle@^0.2.2:
   version "0.2.4"
