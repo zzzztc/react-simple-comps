@@ -58,12 +58,6 @@ function App() {
 - 🎨 **设计系统** - 统一的设计规范
 - ⚡ **快速开发** - 提升开发效率
 
-
-<p align="center">
-  <strong>简单 • 优雅 • 实用</strong>
-</p>
-
-
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request 来帮助改进这个项目。
