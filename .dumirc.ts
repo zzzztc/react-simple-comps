@@ -4,6 +4,7 @@ import * as path from 'path'; // 添加这一行引入path模块
 // @ts-ignore
 export default defineConfig({
   outputPath: 'docs-dist',
+  publicPath: '/react-simple-comps/',
   resolve: {
     entryFile: './src/index.ts', // 添加这一行配置
   },
