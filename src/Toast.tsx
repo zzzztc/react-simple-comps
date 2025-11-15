@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import React from 'react';
 import styled from 'styled-components';
-import type { BaseProps } from '../types/types';
+import type { BaseProps } from './types';
 import { beforeDisposeGen, Dispose, renderElement } from './helper/dom';
 import Mask from './Mask';
 

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ReactElement } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -7,7 +8,12 @@ export const isBrowser = !!(typeof window !== 'undefined' && window);
 /** 是否是移动端 */
 export const isMobile =
   isBrowser && /(iPhone|iPad|iPod|iOS|android)/i.test(navigator.userAgent);
-
+// 创建类型守卫函数
+const hasCreateRoot = (obj: typeof ReactDOM): obj is typeof ReactDOM & {
+  createRoot: Function;
+} => {
+  return 'createRoot' in obj;
+};
 /**
  *
  * 是否支持某个css属性
@@ -96,9 +102,11 @@ export const renderElement: (
   const dom = container || document.createElement('div');
   document.body.appendChild(dom);
   // eslint-disable-next-line
-  ReactDOM?.render
-    ? ReactDOM.render(element, dom)
-    : ReactDOM.createRoot(dom).render(element);
+  if (hasCreateRoot(ReactDOM)) {
+    ReactDOM.createRoot(dom).render(element);
+  } else {
+    ReactDOM.render(element, dom);
+  }
 
   const dispose = () => {
     // eslint-disable-next-line

@@ -38,26 +38,32 @@ export default defineConfig({
             { title: 'Foo', link: '/components/Foo' },
             { title: 'Button 按钮', link: '/components/button' },
             { title: 'Icon 图标', link: '/components/icon' },
+            { title: 'AlertDialog 弹窗', link: '/components/Dialog'},
+            { title: 'Drawer 抽屉', link: '/components/Drawer' },
+            { title: 'Toast 提示', link: '/components/Toast' }
           ],
         },
         {
           title: '数据展示',
           children: [
-            { title: 'Avatar', link: '/components/Avatar' },
-            { title: 'Badge', link: '/components/Badge' },
+            { title: 'Avatar 头像', link: '/components/Avatar' },
+            { title: 'Badge 红标', link: '/components/Badge' },
           ],
         },
         {
           title: '数据录入',
           children: [
-            { title: 'Form', link: '/components/Form' },
-            { title: 'Input', link: '/components/Input' },
-            { title: 'InputNumber', link: '/components/Number' },
+            { title: 'Form 表格', link: '/components/Form' },
+            { title: 'Input 输入框', link: '/components/Input' },
+            { title: 'InputNumber 数字输入框', link: '/components/Number' },
           ],
         },
         {
           title: '导航布局',
-          children: [{ title: 'Space', link: '/components/Space' }],
+          children: [
+              {title: 'Skeleton 骨架屏', link: '/components/Skeleton' },
+              { title: 'Space 间距', link: '/components/Space' }
+          ],
         },
       ],
     },

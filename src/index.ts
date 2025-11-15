@@ -8,6 +8,14 @@ export { default as Input } from './Input';
 export { default as InputNumber } from './InputNumber';
 export { default as Space } from './Space';
 export { default as ThemeProvider } from './ThemeProvider';
+export { default as Drawer } from './Drawer';
+export { default as Toast } from './Toast';
+export { default as Switch } from './Switch';
+export { default as Cell } from './Cell';
+export { default as AlertDialog } from './AlertDialog';
+export { default as SkeletonElement } from './SkeletonElement';
+export { default as Skeleton } from './Skeleton';
+export { default as ClockSpin } from './ClockSpin';
 
 /** form表单 */
 export { default as Form } from './Form';

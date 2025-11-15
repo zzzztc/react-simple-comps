@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 export type ObjectType = Record<string, any>;

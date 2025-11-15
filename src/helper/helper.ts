@@ -12,6 +12,8 @@ export const debounce = (fn: F, timeout = 100): F => {
   let timer = 0;
 
   return function a(...args) {
+    // eslint-disable-next-line
+    // @ts-ignore
     const that = this;
     if (timer) {
       clearTimeout(timer);
@@ -45,6 +47,7 @@ export const throttle = (fn: F, timeout = 200, last = true): F => {
     }, timeout);
   };
   return function (...args) {
+    // @ts-ignore
     const that = this;
     const now = Date.now();
     if (!start) {

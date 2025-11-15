@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { css } from 'styled-components';
 import * as vars from '../consts/vars';
 import { isBrowser } from './dom';

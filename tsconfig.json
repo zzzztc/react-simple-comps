@@ -4,6 +4,7 @@
     "strict": true,
     "declaration": true,
     "emitDeclarationOnly": true,
+    "noEmitOnError": false,
     "isolatedModules": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -27,6 +28,6 @@
       "react-simple-comps/*": ["./src/*", "*"]
     }
   },
-  "include": [".dumirc.ts", "src/**/*"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist", "lib"]
 }

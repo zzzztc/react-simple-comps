@@ -1,7 +1,6 @@
 import React from 'react';
 /** 按钮 */
-declare const Button: React.ForwardRefExoticComponent<
-  React.HTMLAttributes<HTMLAnchorElement | HTMLButtonElement> & {
+declare const Button: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLAnchorElement | HTMLButtonElement> & {
     /**
      * 类型
      * @default default
@@ -31,6 +30,5 @@ declare const Button: React.ForwardRefExoticComponent<
     htmlType?: 'submit' | 'reset' | 'button' | undefined;
     /** 点击后，下次能点击的时间间隔，防止重复点击, 如果是true, 间隔默认是1s  */
     wait?: number | boolean;
-  } & React.RefAttributes<HTMLButtonElement>
->;
+} & React.RefAttributes<HTMLButtonElement>>;
 export default Button;
