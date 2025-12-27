@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { ReactElement } from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 
 /** 是否是浏览器 */

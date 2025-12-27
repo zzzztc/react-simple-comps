@@ -64,12 +64,12 @@ export default defineConfig({
             { title: 'InputNumber 数字输入框', link: '/components/Number' },
             {
               title: 'PasswordInput 密码输入框',
-              link: '/components/PasswordInput',
+              link: '/components/Password',
             },
             { title: 'Checkbox 复选框', link: '/components/Checkbox' },
-            { title: 'Checkbox 复选框组', link: '/components/CheckboxGroup' },
+            { title: 'Checkbox 复选框组', link: '/components/Checkgroup' },
             { title: 'Radio 单选框', link: '/components/Radio' },
-            { title: 'RadioGroup 单选组', link: '/components/RadioGroup' },
+            { title: 'RadioGroup 单选组', link: '/components/Radiogroup' },
           ],
         },
         {
